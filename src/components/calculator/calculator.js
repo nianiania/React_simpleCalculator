@@ -13,18 +13,6 @@ class Calculator extends Component{
         }   
     }
 
-    // add = () =>{
-    //     return this.state.a + this.state.b
-    // }
-
-    // subtract = () =>{
-    //     return this.state.a - this.state.b
-    // }
-    onCalculator = (e)=>{
-        e.preventDefault();  
-        
-    }
-
     penjumlahan = () =>{
         const add = parseInt(this.state.angka1, 10)+ parseInt(this.state.angka2, 10)
         this.setState({ hasil: add })
